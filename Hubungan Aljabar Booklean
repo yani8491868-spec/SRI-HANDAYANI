@@ -1,0 +1,18 @@
+print("p =", True, ", q =", True, "=> p AND q =", True and True)
+print("p =", True, ", q =",False, "=> p AND q =", True and False)
+print("p =", False,", q =", True, "=> p AND q =", False and True)
+print("p =", False,", q =",False, "=> p AND q =", False and True)
+print ("p =" ,False,",q =", False, "=> p OR q =", False and False)
+print ("p =", True,",q =", False , "=> p OR q =", True and False)  
+print ("p =", False,"q =", True , "=> p OR q =", False and True)
+print ("p =",True,"q =", True , "=> p OR q =",True and True)
+print ("p =", True ," , q =", True ,", not q =", not True," = p v ~q =" , True or not True)
+print ("p =", True ," ,q =", False ,", not q =, False,", not q =", not q =", not False," => p v ~q =" , True or not False)
+print ("p =" False ," , q = False => p v ~q =", not True," => p v ~q =" , False or not True)
+print ("p =", Fase ,",q = False => p v ~q =", not False," => p v ~q =", False or not False)
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+print("A n B =", A & B)
+print("A - B =", A - B)
+print("A U B =", A | B)
+print("A o B =" A ^ B)
