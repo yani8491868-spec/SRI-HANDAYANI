@@ -1,0 +1,11 @@
+#menghitung luas persegi panjang
+#input panjang dan lebar
+#rumusan panjang lebar
+panjang = int(input("masukan nilai panjang: "))
+print(panjang)
+lebar = int(input("masukan nilai lebar: "))
+print(lebar)
+panjang*lebar
+panjang+lebar
+panjang-lebar
+panjang%lebar
