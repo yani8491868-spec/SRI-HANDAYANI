@@ -1,0 +1,25 @@
+a = 17
+b = 23
+c = a+b
+print(c)
+40
+a = 43
+b = 13
+c = a-b
+print(c)
+30
+a = 34
+b = 24
+c = a*b
+print(c)
+816
+a = 78
+b = 44
+c = a/b
+print(c)
+1,7
+a = 11
+b = 14
+c = a%b
+print(c)
+1,54
